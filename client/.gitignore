@@ -1,0 +1,6 @@
+node_modules/
+dist/
+# Secrets — TxODDS token cache + the NO-side liquidity seed wallet (holds real devnet SOL)
+.txline-token.json
+.seed-wallet-b.json
+.seed-wallet*.json

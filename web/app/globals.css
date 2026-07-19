@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --canvas: 222 49% 8%;
+  --surface: 221 46% 13%;
+  --raised: 220 44% 18%;
+  --edge: 218 35% 25%;
+  --ink: 220 100% 98%;
+  --muted: 219 24% 73%;
+  --faint: 219 19% 53%;
+  --brand: 217 100% 65%;
+  --brand-hover: 217 91% 58%;
+  --yes: 148 67% 47%;
+  --no: 354 100% 68%;
+  --gradient-bg: linear-gradient(145deg, hsl(222 49% 8%), hsl(221 46% 13%));
+  --gradient-accent: linear-gradient(135deg, hsl(217 100% 65%), hsl(207 100% 55%));
+}
+
+html,
+body {
+  background-color: #12161a;
+}
+
+body {
+  @apply bg-canvas text-ink antialiased;
+  min-height: 100vh;
+  background-image: radial-gradient(circle at 50% -20%, hsl(217 100% 65% / 0.1), transparent 36rem);
+}
+
+/* Thin, unobtrusive scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #252c34 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: hsl(var(--edge));
+  border-radius: 9999px;
+}
+
+*:focus-visible {
+  outline: 2px solid hsl(var(--brand));
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

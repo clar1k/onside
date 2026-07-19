@@ -1,0 +1,28 @@
+ONSIDE — JUDGE Q&A
+
+Why not use an existing prediction market?
+Onside is sports-native: TxODDS match data arrives with a Merkle proof, and the Solana program verifies that proof directly. Settlement does not depend on an operator or a propose/challenge/vote process.
+
+Why does this need blockchain?
+Users should not have to trust a sportsbook database with custody, settlement, or payouts. Solana makes the market state, proof verification, and payout receipts public and independently verifiable.
+
+Is Onside parimutuel?
+Yes. Each YES/NO market uses a shared pool, so payouts come from the losing side rather than fixed house odds. Seed liquidity makes new pools usable before organic bettors arrive.
+
+Who runs the keeper?
+Anyone can submit the signed result proof. The keeper automates submission, but it cannot select or alter the winning outcome.
+
+What can you demonstrate without a live World Cup match?
+Use the recorded devnet replay: connect a wallet, inspect the custom markets and pools, place a YES/NO combo, then show the on-chain program and proof-based settlement flow.
+
+What is already built?
+A deployed Anchor program on Solana devnet, a working frontend, parimutuel YES/NO pools, combo betting, market creation and liquidity seeding, and automated proof submission.
+
+SCORECARD
+Innovation: 9/10
+Technical execution: 8/10
+Completeness: 8/10
+Crypto necessity: 9/10
+Presentation: 9/10
+
+Main limitation: the showcase uses a recorded devnet match replay because no relevant live World Cup market is currently available.

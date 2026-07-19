@@ -1,0 +1,21 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+
+# Next.js build output
+.next
+out
+
+# Secrets & local env — NEVER commit these
+.env
+.env.local
+.env*.local
+# Any Solana keypair / wallet secret (program authority, seed wallets, ids)
+**/*-keypair.json
+**/.seed-wallet*.json
+**/id.json
+.txline-token.json
