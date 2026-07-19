@@ -4,12 +4,12 @@
 
 ### Trustless prediction markets for the World Cup — settled by cryptographic proof, not by an admin.
 
-**Parimutuel binary markets on Solana, resolved on-chain against [TxODDS Tx LINE](https://txline.txodds.com) Merkle-rooted match results. No oracle committee. No settlement multisig. The smart contract proves the result itself.**
+**Parimutuel binary markets on Solana, resolved on-chain against [TxODDS Tx LINE](https://txline-docs.txodds.com/documentation/quickstart) Merkle-rooted match results. No oracle committee. No settlement multisig. The smart contract proves the result itself.**
 
 [![Solana](https://img.shields.io/badge/Solana-devnet-14F195?logo=solana&logoColor=white)](https://explorer.solana.com/address/6F6fVu5x4ng1mxxLtXseVEE9ZxRAvyjxqeXfDQUsEpvb?cluster=devnet)
 [![Anchor](https://img.shields.io/badge/Anchor-0.32-blue)](https://www.anchor-lang.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
-[![Data: TxODDS](https://img.shields.io/badge/data-TxODDS%20Tx%20LINE-orange)](https://txline.txodds.com)
+[![Data: TxODDS](https://img.shields.io/badge/data-TxODDS%20Tx%20LINE-orange)](https://txline-docs.txodds.com/documentation/quickstart)
 
 _Built for the TxODDS World Cup Hackathon — Track 1: Prediction Markets & Settlement._
 
@@ -219,7 +219,7 @@ Web environment variables (see [`web/.env.example`](web/.env.example)):
 
 <div align="center">
 
-**Powered by [TxODDS Tx LINE](https://txline.txodds.com) · Built on [Solana](https://solana.com)**
+**Powered by [TxODDS Tx LINE](https://txline-docs.txodds.com/documentation/quickstart) · Built on [Solana](https://solana.com)**
 
 _The result is proven, not trusted._
 
